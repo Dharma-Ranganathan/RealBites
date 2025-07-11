@@ -1,17 +1,17 @@
 # RealBites | A Basic Blog App 
-# I'm Dharma Ranganathan,This is my beginner first project using Frontend.
-# I'm MERNSTACK WEB DEVELOPER.
+I'm Dharma Ranganathan,This is my beginner first project using Frontend.
+I'm MERNSTACK WEB DEVELOPER.
 
 
-# SKILLS LEARNT 
+SKILLS LEARNT 
 - REACT-JS,REDUX AND REDUX-TOOLKIT,API INTEGRATION,AUTHENTICATION AND AUTHORIZATION,PROTECTED ROUTES
-# SKILLS APPLIED IN PROJECT
+SKILLS APPLIED IN PROJECT
 - Above skills applied in project
 
 # Project Link : https://realbites.netlify.app/
 
 
-# A Blog App || Real Bites 
+A Blog App || Real Bites 
 -- It's a Basic Authenticated and Post Delivering App, where you can do CRUD operations.
 -- You can showcase your posts online where you can captivate the readers and bloggers online.
 -- I have developed this app with protecting routes concepts with react-router-dom.
