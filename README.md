@@ -1,12 +1,20 @@
-# React + Vite
+# RealBites | A Basic Blog App 
+# I'm Dharma Ranganathan,This is my beginner first project using Frontend.
+# I'm MERNSTACK WEB DEVELOPER.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+"""
+# SKILLS LEARNT 
+- REACT-JS,REDUX AND REDUX-TOOLKIT,API INTEGRATION,AUTHENTICATION AND AUTHORIZATION,PROTECTED ROUTES
+# SKILLS APPLIED IN PROJECT
+- Above skills applied in project
+"""
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+"""
+A Blog App || Real Bites 
+-- It's a Basic Authenticated and Post Delivering App, where you can do CRUD operations.
+-- You can showcase your posts online where you can captivate the readers and bloggers online.
+-- I have developed this app with protecting routes concepts with react-router-dom.
+-- I have used redux state management to provide all my states to all components seemlessly without re-rendering the webpages.
+-- I have used redux thunk middleware to deal with API's so that we can fetch data asynchronously.
+-- Here , I have used the json-web-server to store all datas of posts and users.
+"""
