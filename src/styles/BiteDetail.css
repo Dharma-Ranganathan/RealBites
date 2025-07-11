@@ -1,0 +1,176 @@
+.container {
+  .title {
+    padding: 2rem;
+    /* border: 1px solid black; */
+    font-size: 3rem;
+    letter-spacing: 0.2rem;
+    font-weight: 600;
+    color: var(--b-gray);
+    margin-bottom: 2rem;
+    text-transform: capitalize;
+  }
+  .single-bite {
+    /* border: 1px solid black; */
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+    .bite-detail {
+      /* border: 1px solid black; */
+      padding: 1rem;
+      flex: 1 0 40rem;
+
+      .bite-title {
+        /* border: 1px solid; */
+        padding: 0.5rem;
+
+        span {
+          font-size: 1.3rem;
+          font-weight: bold;
+          letter-spacing: 0.1rem;
+          color: var(--black);
+          margin-bottom: 1rem;
+        }
+        h4 {
+          font-size: 2rem;
+          color: var(--b-gray);
+          letter-spacing: 0.2rem;
+          text-transform: capitalize;
+        }
+      }
+      .bite-content {
+        /* border: 1px solid black; */
+        padding: 0.5rem;
+        margin-bottom: 1rem;
+
+        span {
+          font-size: 1.3rem;
+          font-weight: bold;
+          letter-spacing: 0.1rem;
+          color: var(--black);
+          margin-bottom: 1rem;
+        }
+        p {
+          /* border: 1px solid black; */
+          text-align: justify;
+          font-size: 1.5rem;
+          letter-spacing: 0.1rem;
+          color: var(--b-gray);
+          text-transform: capitalize;
+        }
+      }
+      .bite-hashtags {
+        /* border: 1px solid; */
+        display: flex;
+        gap: 1rem;
+
+        span {
+          font-size: 1.3rem;
+          color: var(--hash);
+          cursor: pointer;
+        }
+      }
+
+      .bite-buttons {
+        /* border: 1px solid; */
+        display: flex;
+        gap: 2rem;
+        padding: 1rem;
+        margin-top: 1rem;
+
+        button {
+          padding: 1rem 2rem;
+          border: none;
+          background: var(--b-gray);
+          color: var(--p-white);
+          border-radius: 0.5rem;
+          cursor: pointer;
+
+          span {
+            font-size: 2rem;
+          }
+        }
+      }
+    }
+    .user-detail {
+      /* border: 1px solid black; */
+      padding: 1rem;
+      flex: 1 0 40rem;
+      display: flex;
+      flex-direction: column;
+
+      .imgbox {
+        height: 15rem;
+        width: 15rem;
+        background: var(--b-gray);
+        padding: 0.5rem;
+        overflow: hidden;
+        border-radius: 100%;
+        align-self: center;
+        margin-bottom: 1rem;
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          border-radius: inherit;
+        }
+      }
+
+      .fullname {
+        /* border: 1px solid black; */
+        padding: 0.5rem;
+
+        span {
+          font-size: 1.3rem;
+          font-weight: bold;
+          letter-spacing: 0.1rem;
+          color: var(--black);
+          margin-bottom: 1rem;
+        }
+        h3 {
+          font-size: 2rem;
+          color: var(--b-gray);
+          letter-spacing: 0.2rem;
+        }
+      }
+
+      .username {
+        /* border: 1px solid black; */
+        padding: 0.5rem;
+        margin-bottom: 1rem;
+
+        span {
+          font-size: 1.3rem;
+          font-weight: bold;
+          letter-spacing: 0.1rem;
+          color: var(--black);
+          margin-bottom: 1rem;
+        }
+        p {
+          font-size: 2rem;
+          color: var(--b-gray);
+        }
+      }
+
+      .follow-btn {
+        /* border: 1px solid black; */
+        border-radius: 1rem;
+        background: var(--b-gray);
+        padding: 0.5rem 1rem;
+        cursor: pointer;
+        width: 50%;
+
+        p {
+          color: var(--w-gray);
+          text-align: center;
+          font-size: 1.5rem;
+          font-weight: bold;
+          letter-spacing: 0.1rem;
+          text-transform: capitalize;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+.today-bites {
+  /* border: 1px solid var(--black); */
+  flex-grow: 1;
+  padding: 1rem;
+  /* overflow-y: scroll; */
+
+  .bites-title {
+    /* border: 1px solid black; */
+    padding: 1rem;
+
+    h3 {
+      font-size: 2rem;
+      font-weight: 600;
+      letter-spacing: 0.2rem;
+      color: var(--b-gray);
+    }
+  }
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .NoBites {
+    /* border: 1px solid; */
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    color: var(--hash);
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .no-bites-img {
+    width: 30rem;
+  }
+}

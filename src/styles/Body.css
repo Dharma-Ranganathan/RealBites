@@ -1,0 +1,73 @@
+.body {
+  /* border: 1px solid black; */
+  padding: 1rem;
+  height: calc(100% - 4rem);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  .body-title {
+    /* border: 1px solid black; */
+    text-align: center;
+
+    color: var(--black);
+    font-size: 3.3vw;
+    @media screen and (width<=60rem) {
+      & {
+        font-size: 3rem;
+      }
+    }
+  }
+  .body-para {
+    font-size: 2.8vw;
+    /* border: 1px solid black; */
+    width: 75%;
+    color: var(--b-gray);
+    text-align: center;
+    margin-bottom: 2rem;
+    font-weight: 600;
+
+    @media screen and (width<=60rem) {
+      & {
+        width: 100%;
+        font-size: 2rem;
+      }
+    }
+  }
+  .buttons {
+    display: flex;
+    gap: 2rem;
+
+    .button {
+      padding: 0.5rem 1rem;
+      border-radius: 1rem;
+      font-size: 2rem;
+      cursor: pointer;
+      font-weight: 600;
+
+      @media screen and (width<=60rem) {
+        & {
+          font-size: 1.5rem;
+        }
+      }
+      &:hover {
+        transform: scale(1.1);
+        transition: transform 0.2s ease;
+      }
+
+      &.button-sign-in {
+        border: 3px solid var(--black);
+        background: var(--black);
+        color: var(--w-gray);
+        letter-spacing: 0.2rem;
+      }
+      &.button-get-started {
+        letter-spacing: 0.2rem;
+        border: 3px solid var(--b-gray);
+        color: var(--b-gray);
+      }
+    }
+  }
+}

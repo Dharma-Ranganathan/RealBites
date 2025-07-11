@@ -1,0 +1,79 @@
+.loader-page {
+  /* border: 1px solid; */
+  padding: 1rem;
+  flex-grow: 1;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+
+  .round {
+    background: linear-gradient(
+      to bottom right,
+      var(--b-gray),
+      var(--b-gray),
+      var(--s-white)
+    );
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+
+    position: relative;
+  }
+}
+
+.round1 {
+  animation-name: load1;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  animation-delay: 0.1s;
+}
+.round2 {
+  animation-name: load2;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+
+  animation-delay: 0.2s;
+}
+.round3 {
+  animation-name: load3;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+
+  animation-delay: 0.3s;
+}
+
+@keyframes load1 {
+  50% {
+    transform: translateY(-1rem);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateY(-1rem) translateY(1rem);
+    opacity: 1;
+  }
+}
+@keyframes load2 {
+  50% {
+    opacity: 0.8;
+    transform: translateY(-1rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(-1rem) translateY(1rem);
+  }
+}
+@keyframes load3 {
+  50% {
+    opacity: 0.8;
+    transform: translateY(-1rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(-1rem) translateY(1rem);
+  }
+}

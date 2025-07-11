@@ -1,0 +1,180 @@
+.testimonials {
+  /* border: 1px solid black; */
+  flex-grow: 1;
+  padding: 1rem;
+  overflow-y: scroll;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  .testimonial-title {
+    /* border: 1px solid black; */
+    padding: 1rem;
+
+    h3 {
+      font-size: 3rem;
+      font-weight: 600;
+      letter-spacing: 0.2rem;
+      color: var(--b-gray);
+    }
+  }
+  .testimonial-grid-con {
+    /* border: 1px solid black; */
+    padding: 1rem;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+
+    grid-template-areas:
+      "grid1 grid1 grid3 grid5"
+      "grid4 grid2 grid2 grid5";
+    gap: 1rem;
+
+    .testimonial-grid-item {
+      /* border: 2px solid var(--w-gray); */
+      box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.25);
+      border-radius: 1rem;
+      padding: 1rem;
+      background: var(--p-white);
+
+      &:nth-child(1) {
+        grid-area: grid1;
+        background: rgb(252, 192, 252);
+      }
+      &:nth-child(2) {
+        grid-area: grid2;
+        background: rgb(163, 245, 245);
+      }
+      &:nth-child(3) {
+        grid-area: grid3;
+        background: blanchedalmond;
+      }
+      &:nth-child(4) {
+        grid-area: grid4;
+        background: rgb(167, 197, 255);
+      }
+      &:nth-child(5) {
+        grid-area: grid5;
+        background: rgb(213, 252, 136);
+      }
+
+      .top-grid {
+        /* border: 1px solid; */
+        display: flex;
+        align-items: center;
+
+        .imgbox {
+          flex-shrink: 0;
+          height: 5rem;
+          width: 5rem;
+          background: var(--w-gray);
+          padding: 0.2rem;
+          border-radius: 100%;
+          overflow: hidden;
+          margin-right: 1rem;
+
+          img {
+            width: 100%;
+            height: 100%;
+            border-radius: inherit;
+            object-fit: cover;
+          }
+        }
+        .names {
+          /* border: 1px solid black; */
+
+          .fullname {
+            text-transform: capitalize;
+            font-size: 1.8rem;
+            font-weight: 600;
+            letter-spacing: 0.1rem;
+            color: var(--b-gray);
+          }
+          .username {
+            text-transform: lowercase;
+            font-size: 1.3rem;
+            font-weight: 600;
+            letter-spacing: 0.05rem;
+            color: var(--b-gray);
+          }
+        }
+        .follow-btn {
+          /* border: 1px solid black; */
+          margin-left: auto;
+          margin-right: 1rem;
+          background: var(--b-gray);
+          padding: 0.3rem 0.8rem;
+          border-radius: 1rem;
+          cursor: pointer;
+
+          p {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: var(--s-white);
+          }
+        }
+      }
+
+      .mid-grid {
+        margin-top: 2rem;
+
+        .title {
+          h3 {
+            text-transform: capitalize;
+            font-size: 2rem;
+            color: var(--b-gray);
+            letter-spacing: 0.1rem;
+            font-weight: 600;
+          }
+        }
+      }
+
+      .bottom-grid {
+        margin-top: 1rem;
+
+        p {
+          text-transform: capitalize;
+          font-size: 1.3rem;
+          color: var(--b-gray);
+          text-align: justify;
+          letter-spacing: 0.1rem;
+        }
+      }
+
+      .hashtags {
+        /* border: 1px solid black; */
+        margin-top: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+
+        span {
+          font-size: 1.3rem;
+          color: var(--hash);
+          cursor: pointer;
+        }
+      }
+    }
+
+    @media screen and (width <= 80rem) {
+      & {
+        grid-template-areas:
+          "grid1 grid2"
+          "grid1 grid3"
+          "grid4 grid3"
+          "grid4 grid5";
+      }
+    }
+    @media screen and (width <= 50rem) {
+      & {
+        grid-template-areas:
+          "grid1"
+          "grid2"
+          "grid3"
+          "grid4"
+          "grid5";
+      }
+    }
+  }
+}

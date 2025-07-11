@@ -1,0 +1,114 @@
+.my-profile {
+  /* border: 1px solid black; */
+  padding: 1rem;
+  /* flex-grow: 1; */
+  flex: 1 0 auto;
+  overflow-y: scroll;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  .wrapper {
+    /* border: 1px solid black; */
+    padding: 1rem;
+    background: var(--p-white);
+    border-radius: 0.5rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+    h3 {
+      /* border: 1px solid; */
+      padding: 1rem;
+      color: var(--b-gray);
+      font-size: 3rem;
+      font-weight: 600;
+      letter-spacing: 0.1rem;
+    }
+    .profile-container {
+      padding: 1rem;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      gap: 2rem;
+
+      .fullname {
+        flex: 1 0 auto;
+        /* border: 1px solid black; */
+        display: flex;
+        gap: 2rem;
+        align-items: center;
+
+        span {
+          font-size: 2rem;
+          line-height: 1rem;
+        }
+        h4 {
+          font-size: 1.5rem;
+          color: var(--b-gray);
+          text-transform: capitalize;
+        }
+      }
+      .username {
+        flex: 1 0 auto;
+        /* border: 1px solid black; */
+        display: flex;
+        gap: 2rem;
+        align-items: center;
+
+        span {
+          font-size: 2rem;
+          line-height: 1rem;
+        }
+        p {
+          font-size: 1.3rem;
+          color: var(--b-gray);
+        }
+      }
+      .email {
+        flex: 1 0 auto;
+        /* border: 1px solid black; */
+        display: flex;
+        gap: 2rem;
+        align-items: center;
+
+        span {
+          font-size: 2rem;
+          line-height: 1rem;
+        }
+        p {
+          font-size: 1.3rem;
+          color: var(--b-gray);
+        }
+      }
+
+      .buttons {
+        display: flex;
+        flex-direction: column;
+        min-width: 25rem;
+        gap: 2rem;
+
+        button {
+          display: flex;
+          align-items: center;
+          color: var(--p-white);
+          justify-content: center;
+          background: var(--b-gray);
+          border: none;
+          padding: 0.5rem;
+          cursor: pointer;
+          /* margin: 0 auto; */
+          span {
+            font-size: 2rem;
+            line-height: 1rem;
+            margin-right: 1rem;
+            color: var(--p-white);
+          }
+        }
+      }
+    }
+  }
+}

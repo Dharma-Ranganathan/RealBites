@@ -1,0 +1,48 @@
+.logout-profile {
+  /* border: 1px solid; */
+  flex: 1 0 auto;
+  padding: 1rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+
+  .logout-container {
+    /* border: 1px solid; */
+    min-width: 30rem;
+    background: var(--p-white);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+    border-radius: 1rem;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    flex-direction: column;
+
+    img {
+      width: 20rem;
+    }
+    p {
+      font-size: 2rem;
+      text-align: center;
+
+      span {
+        font-weight: bold;
+        color: var(--hash);
+        cursor: pointer;
+      }
+    }
+    button {
+      border: none;
+      background: var(--b-gray);
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: var(--p-white);
+      padding: 0.5rem 1rem;
+      cursor: pointer;
+      border-radius: 0.5rem;
+    }
+  }
+}

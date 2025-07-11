@@ -1,0 +1,283 @@
+{
+  "testimonials": [
+    {
+      "id": "1",
+      "fullname": "Dharma Ranganathan",
+      "username": "@dotijone",
+      "title": "wizard of frontend development",
+      "content": "A front-end developer is a type of software developer who creates the user-facing side of websites and applications. They are well-versed in web development languages such as HTML, CSS, and JavaScript that are designed for coding dynamic, interactive user experiences",
+      "hashtags": [
+        "frontenddeveloper",
+        "webdeveloper",
+        "html",
+        "css",
+        "javascript",
+        "reactjs"
+      ]
+    },
+    {
+      "id": "2",
+      "fullname": "Girinath Ranganathan",
+      "username": "@retro_giri",
+      "title": "Life of Cinematographer",
+      "content": "cinematography, the art and technology of motion-picture photography. It involves such techniques as the general composition of a scene; the lighting of the set or location;",
+      "hashtags": [
+        "cinematography",
+        "cinematic",
+        "filmmaking",
+        "cinematographer",
+        "visualstorytelling"
+      ]
+    },
+    {
+      "id": "3",
+      "fullname": "Suriya Prakash",
+      "username": "@web_dev_suriya",
+      "title": "Art of Web Development",
+      "content": "The Web Developer is a multitasking programmer who masters various programming or scripting languages. The web developer can adapt to the various needs of a website, develop new features and maintain existing ones.",
+      "hashtags": [
+        "websitedevelopment",
+        "webdesign",
+        "frontend",
+        "backend",
+        "fullstack"
+      ]
+    },
+    {
+      "id": "4",
+      "fullname": "Vasanth Kumar",
+      "username": "@vasanth_editz",
+      "title": "The Truth of Video Edititng",
+      "content": "Video editing includes cutting segments (trimming), re-sequencing clips, and adding transitions and other special effects. Linear video editing uses video tape and is edited sequentially.",
+      "hashtags": [
+        "VideoEditing",
+        "Editing",
+        "PostProduction",
+        "VideoProduction",
+        "FilmEditing"
+      ]
+    },
+    {
+      "id": "5",
+      "fullname": "Vinoth Kumar",
+      "username": "@medical_rep",
+      "title": "The Title Medical Representative",
+      "content": "Medical representatives manage an assigned territory, plan visits to medical facilities, track sales performance, and maintain detailed records of customer interactions.",
+      "hashtags": [
+        "medicalsalesrep",
+        "medicalsales",
+        "medicalsalesjobs",
+        "pharmafranchise",
+        "medicalsalesrepresentative"
+      ]
+    }
+  ],
+  "bites": [
+    {
+      "id": "1",
+      "title": "comedy varugirathu vali vidungol",
+      "content": "Oru oorula oru.....,Ama apdiye poiru intha pakkame vanthirathe !. Dei Yara Neengalam, Enga irunthu da vareenga...",
+      "hashtags": [
+        "comedy",
+        "standup_comedy",
+        "vaaila_sangu"
+      ],
+      "userId": "3"
+    },
+    {
+      "id": "2",
+      "title": "because of high maturity",
+      "content": "when a man or woman has high maturity, they failed to teach others. cause, their maturity says them that noone will listen them",
+      "hashtags": [
+        "missed_theories",
+        "wanted_philosophy",
+        "motivate"
+      ],
+      "userId": "1"
+    },
+    {
+      "id": "3",
+      "title": "Athavathu na enna sollavara naa!",
+      "content": "Kalaila kaduvul ta ketan, en life la ellam problems um face pannu nu solringale. naangalum kastapattu face panrom tha but athula kedaikara happiness mattum yen engalukku illa neenga eduthukiringa? Problems Engalukku! happiness Ungalukku?!",
+      "hashtags": [
+        "reality",
+        "1% truth",
+        "none_cares"
+      ],
+      "userId": "2"
+    },
+    {
+      "id": "5691",
+      "title": "Ramu and lakshmanan",
+      "content": "i have done pampering my dogs and they're sleeping right now.",
+      "hashtags": [
+        "self",
+        "selflove"
+      ],
+      "userId": null
+    },
+    {
+      "id": "5ef2",
+      "title": "politics",
+      "content": "politics are the real scam that we've ever seen but most of the people really trusting if someone like thalapathy would come to save us?",
+      "hashtags": [
+        "reality",
+        "thalapathy",
+        "vote_for_thalapathy"
+      ],
+      "userId": null
+    },
+    {
+      "id": "5427",
+      "title": "Mobile Addictive",
+      "content": "mark down one damn thing , you have to aware of your crucial information that you have stored in mobile phones, we don't known when the data breach will take part. isn't it?",
+      "hashtags": [
+        "information",
+        "mobile_addiction",
+        "Reality"
+      ],
+      "userId": null
+    },
+    {
+      "id": "352b",
+      "title": "comedy business",
+      "content": "comedy is not comedy when it's hurt people.",
+      "hashtags": [
+        "comedy",
+        "standUp"
+      ],
+      "userId": null
+    },
+    {
+      "id": "bcb4",
+      "title": "post title",
+      "content": "content description",
+      "hashtags": [
+        "hashtags"
+      ],
+      "userId": null
+    },
+    {
+      "id": "e094",
+      "title": "post title 2",
+      "content": "description 2",
+      "hashtags": [
+        "hashtags"
+      ],
+      "userId": null
+    },
+    {
+      "id": "519f",
+      "title": "post title 3",
+      "content": "description 3",
+      "hashtags": [
+        "sample hashtags"
+      ],
+      "userId": null
+    },
+    {
+      "id": "98e0",
+      "title": "random",
+      "content": "random",
+      "hashtags": [
+        "random"
+      ],
+      "userId": null
+    },
+    {
+      "id": "20eb",
+      "title": "random",
+      "content": "random",
+      "hashtags": [
+        "random"
+      ],
+      "userId": null
+    },
+    {
+      "id": "b5c5",
+      "title": "makkale nambavendaam !",
+      "content": "inaikku nama paaka pora topic ennana, awareness !. namma entha oru visayam senjalum atha awareness illama senja antha problem namakku varathu vida family ah main ah affect pannum. so be aware at any cost.",
+      "hashtags": [
+        "awareness",
+        "reality",
+        "karuthoosi"
+      ],
+      "userId": null
+    },
+    {
+      "title": "roadmap to dSA complete",
+      "content": "first learn any one programming language, be strong at fundamentals. then  start with basic algorithms.",
+      "hashtags": [
+        "programming",
+        "dsa"
+      ],
+      "id": "30fc",
+      "userId": "e056"
+    },
+    {
+      "id": "cd0c",
+      "title": "How to edit videos seamlessly ?",
+      "content": "Details and tutorials of video editing",
+      "hashtags": [
+        "VideoEditing",
+        " GraphicDesigning",
+        " Entertainment "
+      ],
+      "userId": null
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "dotijone",
+      "fullname": "Dharma Ranganathan",
+      "email": "dharma@gmail.com"
+    },
+    {
+      "id": "2",
+      "username": "retro_giri",
+      "email": "giri@gmail.com",
+      "fullname": "Girinath Ranganathan"
+    },
+    {
+      "id": "3",
+      "username": "web_dev_suriya",
+      "email": "suriya@gmail.com",
+      "fullname": "Suriya Prakash"
+    },
+    {
+      "id": "4",
+      "username": "vasanth_editz",
+      "email": "vasanth@gmail.com",
+      "fullname": "Vasanth Kumar"
+    },
+    {
+      "id": "a297",
+      "fullname": "Girinath",
+      "username": "web man",
+      "email": "giri@gmail",
+      "password": "123456"
+    },
+    {
+      "id": "e056",
+      "fullname": "Dharma Ranganathan",
+      "username": "dotijone",
+      "email": "dotijone@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "4d01",
+      "fullname": "Vasanth Kumar",
+      "username": "vasanth_rajnews",
+      "email": "vasanth@rajnews.com",
+      "password": "123456"
+    },
+    {
+      "id": "75fb",
+      "fullname": "Girinath Ranganathan",
+      "username": "retro_giri",
+      "email": "giri@2025gmail.com",
+      "password": "123456"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+.error-page {
+  /* border: 1px solid; */
+  flex-grow: 1;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: center;
+
+  .error-title {
+    font-size: 2.5vw;
+    color: var(--b-gray);
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+  }
+  p {
+    font-size: 2vw;
+    font-weight: bold;
+    color: black;
+    letter-spacing: 0.1rem;
+  }
+  a {
+    span {
+      color: var(--hash);
+      font-size: 1.3rem;
+      background: var(--p-white);
+      padding: 0.5rem;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+      border-radius: 0.5rem;
+    }
+  }
+}

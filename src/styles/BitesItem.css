@@ -1,0 +1,100 @@
+.bites-item {
+  /* border: 1px solid black; */
+  box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.25);
+  padding: 1rem;
+  background: var(--p-white);
+  border-radius: 1rem;
+  flex: 1 0 30rem;
+  .top-flex {
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    .imgbox {
+      width: 5rem;
+      height: 5rem;
+      flex-shrink: 0;
+      overflow: hidden;
+      border: 2px solid var(--b-gray);
+      border-radius: 50%;
+      margin-right: 2rem;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: inherit;
+      }
+    }
+    .names {
+      /* border: 1px solid black; */
+
+      .fullname {
+        text-transform: capitalize;
+        font-size: 1.8rem;
+        font-weight: 600;
+        letter-spacing: 0.1rem;
+        color: var(--b-gray);
+      }
+      .username {
+        text-transform: lowercase;
+        font-size: 1.3rem;
+        font-weight: 600;
+        letter-spacing: 0.05rem;
+        color: var(--w-gray);
+      }
+    }
+    .follow-btn {
+      /* border: 1px solid black; */
+      margin-left: auto;
+      margin-right: 1rem;
+      background: var(--b-gray);
+      padding: 0.3rem 0.8rem;
+      border-radius: 1rem;
+      cursor: pointer;
+
+      p {
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: var(--s-white);
+      }
+    }
+  }
+
+  .mid-flex {
+    margin-top: 2rem;
+
+    h3 {
+      text-transform: capitalize;
+      font-size: 2rem;
+      color: var(--b-gray);
+      letter-spacing: 0.1rem;
+      font-weight: 600;
+    }
+  }
+  .bottom-flex {
+    margin-top: 1rem;
+
+    p {
+      text-transform: capitalize;
+      font-size: 1.3rem;
+      color: var(--b-gray);
+      text-align: justify;
+      letter-spacing: 0.1rem;
+    }
+  }
+  .hashtags {
+    /* border: 1px solid black; */
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+
+    span {
+      font-size: 1.3rem;
+      color: var(--hash);
+      cursor: pointer;
+    }
+  }
+}
