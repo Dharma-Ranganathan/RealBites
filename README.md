@@ -8,7 +8,7 @@
 # SKILLS APPLIED IN PROJECT
 - Above skills applied in project
 
-Project Link : https://realbites.netlify.app/
+# Project Link : https://realbites.netlify.app/
 
 
 # A Blog App || Real Bites 
