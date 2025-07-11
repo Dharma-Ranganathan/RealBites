@@ -8,6 +8,8 @@
 # SKILLS APPLIED IN PROJECT
 - Above skills applied in project
 
+Project Link : https://realbites.netlify.app/
+
 
 # A Blog App || Real Bites 
 -- It's a Basic Authenticated and Post Delivering App, where you can do CRUD operations.
