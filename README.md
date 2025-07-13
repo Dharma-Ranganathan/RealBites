@@ -3,9 +3,9 @@ I'm Dharma Ranganathan,This is my beginner first project using Frontend.
 I'm MERNSTACK WEB DEVELOPER.
 
 
-SKILLS LEARNT 
+# SKILLS LEARNT 
 - REACT-JS,REDUX AND REDUX-TOOLKIT,API INTEGRATION,AUTHENTICATION AND AUTHORIZATION,PROTECTED ROUTES
-SKILLS APPLIED IN PROJECT
+# SKILLS APPLIED IN PROJECT
 - Above skills applied in project
 
 >> Note : This project cannot be deployed cause, this app contains json-server as fake api server which cannot be deployed online.
